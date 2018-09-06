@@ -4,7 +4,7 @@ import {Text} from	'react-native';
 class Judul extends React.Component{
 	render(){
 		return ( 
-			<Text style = {salon.judul}>Biodata : </Text>
+			<Text style = {salon.judul}>{this.props.title}</Text>
 			)
 	}
 }
@@ -14,6 +14,7 @@ const salon = {
 		color: "#0055a4",
 		fontSize: 75,
 		fontWeight:'bold'
+
 	}
 
 }
